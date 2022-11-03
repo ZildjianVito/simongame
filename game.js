@@ -70,6 +70,6 @@ const animatePress = (currentColor) => {
 
 
 const playSound = (colorName) => {
-    let audio = new Audio("/sounds/" + colorName + ".mp3")
+    let audio = new Audio("sounds/" + colorName + ".mp3")
     audio.play()
 }
